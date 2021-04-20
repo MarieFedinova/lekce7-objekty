@@ -25,3 +25,7 @@ const spz = auto.spz;
 document.querySelector('#spz').innerHTML = spz;
 
 console.log({auto});
+
+let odstavec = document.createElement('p');
+odstavec.innerHTML = 'Já jsem odstavec';
+document.querySelector('#spz').appendChild(odstavec);
